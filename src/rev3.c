@@ -3,7 +3,7 @@
 
 int main(void)
 {
-  char flag[] = "RGTBSEzj2x^G0c0mf^hm^O030m^RhFgS|";
+  char *flag = "RGTBSEzj2x^G0c0mf^hm^O030m^RhFgS|";
   int i;
   int n = strlen(flag);
   char output[n];
