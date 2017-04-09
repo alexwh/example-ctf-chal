@@ -1,0 +1,3 @@
+[submodule "webroot/devtools-detect"]
+	path = webroot/devtools-detect
+	url = https://github.com/sindresorhus/devtools-detect.git

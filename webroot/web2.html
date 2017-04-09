@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+body {
+    width: 35em;
+    margin: 0 auto;
+}
+        </style>
+        <script src="devtools-detect/index.js"></script>
+        <script>
+document.addEventListener('contextmenu', event => event.preventDefault());
+window.addEventListener('devtoolschange', function (e) {
+    if (e.detail.open) {
+        window.location.replace("index.html");
+    }
+});
+        </script>
+    </head>
+    <body>
+        Another web page. Nothing to see here, move along.
+    </body>
+    <!-- EXAMPLECTF{cL1EnT_s1dE_pr0t3ctOn_sUcK5} -->
+</html>
